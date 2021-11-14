@@ -1,0 +1,136 @@
+body {
+	background: #313038 url(images/fond1.jpg);
+    background-size: 100%;
+	font-size: 0.9vw;
+	font-family: sans-serif;
+    overflow-x: hidden;
+    color: lightgray;
+}
+
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #26446e;
+}
+
+#header {
+    font-size: 2em;
+}
+
+
+#logo {
+    transition: 0.25s;
+}
+#logo:hover {
+    -webkit-filter: drop-shadow(0.6vw 0.6vw 0.35vw rgba(0,0,0,0.5));
+    filter: drop-shadow(0.6vw 0.6vw 0.35vw rgba(0,0,0,0.5));
+}
+
+#titre_page {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #f7483b, #26446e);
+    border-bottom: 1px solid;
+    width: 100%;
+    padding-left: 1%;
+}
+
+#barre {
+    position: absolute;
+    top: -15%;
+}
+
+#menu {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+header li a::before {
+    content:" ▷ ";
+}
+
+header li a:hover {
+    border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+
+}
+
+header li a:hover::before {
+    content:" ▶ ";
+}
+
+#copyright {
+    font-size: 0.4em;
+    position:absolute;
+    right: 0.5%;
+    top: 75%;
+}
+
+.ligne_haut {
+    position: fixed;
+    z-index: 9;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.275vw;
+    background-color: #26446e;
+}
+
+#menu_connexion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    top: -0.7vw;
+    border-bottom-left-radius: 0.9vw;
+    overflow: hidden;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: #26446e;
+}
+
+#connexion li:hover, #deconnexion li:hover {
+    border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+}
+
+#connexion ul, #deconnexion ul {
+    margin: 0.8vw -0.55vw 0.25vw -1.35vw;
+    list-style: none;
+}
+#connexion ul > a, #deconnexion ul > a {
+    padding-right: 1.35vw;
+}
+
+#overlay, #mdp_oublie {
+    align-self: stretch;
+}
+#overlay input, #mdp_oublie input {
+    align-self: stretch;
+    width: 90%;
+}
+
+#overlay input::-webkit-input-placeholder, #mdp_oublie input::-webkit-input-placeholder {
+    font-size: 0.9vw;
+}
+
+#oubli_mdp:hover, #reconnexion:hover {
+    color: lightblue;
+    border-bottom: 1px lightblue solid;
+}
+footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #26446e;
+}
