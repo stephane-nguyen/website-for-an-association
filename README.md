@@ -1,9 +1,9 @@
 # School-project-website-for-an-association
 
-## Étapes pour visualiser le site
+## To visualize the website
 
 ```
-Installer WAMP (windows) ou MAMP (Mac) pour pouvoir visualiser le site.
-Mettre le dossier "projet_dev_web_FINAL" dans le "Répertoire www" une fois WAMP/MAMP lancé.
-Lancer localhost à partir de WAMP/MAMP.
+- Install WAMP (windows) or MAMP (Mac)
+- Put the "projet_dev_web_FINAL" folder in the "www" repository once WAMP/MAMP is launched.
+- Launch localhost from WAMP/MAMP
 ```
