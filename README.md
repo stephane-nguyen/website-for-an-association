@@ -1,4 +1,4 @@
-# School-project-website-for-an-association
+# website-for-an-association
 
 ## To visualize the website
 
